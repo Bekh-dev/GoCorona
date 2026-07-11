@@ -295,18 +295,30 @@ body {
 }
 .get-started__video {
 	flex: 1 1 100%;
+	margin: 60px 0px 0px 0px;
 }
 
 .video-get-started {
 	display: inline-flex;
 	align-items: center;
+	gap: 10px;
 }
 .video-get-started__icon {
+	flex: 0 0 44px;
 }
 .video-get-started__body {
 }
 .video-get-started__title {
+	font-size: 13px;
+	letter-spacing: 1.5px;
+	color: #b0b0b0;
+}
+.video-get-started__title:not(:last-child) {
+	margin: 0px 0px 5px 0px;
 }
 .video-get-started__text {
+	font-size: 9px;
+	text-transform: uppercase;
+	color: #000;
 }
 /*--------------------------------------------------*/
